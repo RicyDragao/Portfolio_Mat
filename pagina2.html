@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Binario</title>
+</head>
+<link rel="stylesheet" href="stylesPag2.css">
+<body background="Imagens/backgroundAzul.gif"; style="background-size: cover;" style="background-repeat: no-repeat;"> 
+    <style>
+        @font-face {
+            font-family: minhaFonte;
+            src: url(Fontes/8_bit_pusab/8-bit-pusab.ttf)
+        }
+        
+    </style>
+
+    <span style="font-family: minhaFonte;">
+        <center><h1 style="color: rgb(147, 198, 255);"><u>SISTEMA BINARIO</u></h1></center>
+        <br>
+
+<center>            
+    <table style="color: aliceblue;">
+            <tr>
+                <td>Um sistema binario e um sistema de numeracao que utiliza apenas dois digitos: 0 e 1.</td>                
+            </tr>
+            <tr>
+                <td>Este sistema e a base para toda a computacao digital e eletronica moderna.</td>
+            </tr>
+            <tr>
+                <td>No sistema binario, o processo e analogo: apos usar os simbolos 0 e 1, o proximo numero sera o arranjo 10, seguido por 11, depois 100, 101, 110, 111, e assim sucessivamente.</td>
+            </tr>
+            <tr>                         
+                <td>Vejamos o quadro abaixo.</td>
+            </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;"bordercolor="white">
+        <tr style="background-color: rgba(240, 248, 255, 0.479);">
+            <td style="padding: 10px;">Decimal</td>
+            <td style="padding: 10px;">Binario</td>
+            <td style="padding: 10px;">Decimal</td>
+            <td style="padding: 10px;">Binario</td>
+            <td style="padding: 10px;">Decimal</td>
+            <td style="padding: 10px;">Binario</td>
+            </tr>
+            <th style="padding: 20px;">0</th>
+            <th style="padding: 20px;">0</th>
+            <th style="padding: 20px;">10</th>
+            <th style="padding: 20px;">1010</th>
+            <th style="padding: 20px;">20</th>
+            <th style="padding: 20px;">10100</th>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">1</td>
+            <td style="padding: 10px;">11</td>
+            <td style="padding: 10px;">1011</td>
+            <td style="padding: 10px;">21</td>
+            <td style="padding: 10px;">10101</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">2</td>
+            <td style="padding: 10px;">10</td>
+            <td style="padding: 10px;">12</td>
+            <td style="padding: 10px;">1100</td>
+            <td style="padding: 10px;">22</td>
+            <td style="padding: 10px;">10110</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">3</td>
+            <td style="padding: 10px;">11</td>
+            <td style="padding: 10px;">13</td>
+            <td style="padding: 10px;">1101</td>
+            <td style="padding: 10px;">23</td>
+            <td style="padding: 10px;">10111</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">4</td>
+            <td style="padding: 10px;">100</td>
+            <td style="padding: 10px;">14</td>
+            <td style="padding: 10px;">1110</td>
+            <td style="padding: 10px;">24</td>
+            <td style="padding: 10px;">11000</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">5</td>
+            <td style="padding: 10px;">101</td>
+            <td style="padding: 10px;">15</td>
+            <td style="padding: 10px;">1111</td>
+            <td style="padding: 10px;">25</td>
+            <td style="padding: 10px;">11001</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">6</td>
+            <td style="padding: 10px;">110</td>
+            <td style="padding: 10px;">16</td>
+            <td style="padding: 10px;">10000</td>
+            <td style="padding: 10px;">26</td>
+            <td style="padding: 10px;">11010</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">7</td>
+            <td style="padding: 10px;">111</td>
+            <td style="padding: 10px;">17</td>
+            <td style="padding: 10px;">10001</td>
+            <td style="padding: 10px;">27</td>
+            <td style="padding: 10px;">11010</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">8</td>
+            <td style="padding: 10px;">1000</td>
+            <td style="padding: 10px;">18</td>
+            <td style="padding: 10px;">10010</td>
+            <td style="padding: 10px;">28</td>
+            <td style="padding: 10px;">11100</td>
+        </tr>
+        <tr align="center">
+            <td style="padding: 10px;">9</td>
+            <td style="padding: 10px;">1001</td>
+            <td style="padding: 10px;">19</td>
+            <td style="padding: 10px;">10011</td>
+            <td style="padding: 10px;">29</td>
+            <td style="padding: 10px;">11101</td>
+        </tr>        
+    </table>
+</center>
+<p align="center" style="color: aliceblue;">Notacao: (14)𝟏𝟎 = (1110) ₂</p>
+<br>
+
+<center>
+    <table style="color: aliceblue;">       
+        <tr>
+            
+        </tr>
+        <tr>
+            <td>Como podemos CONVERTER os numeros de base 2, para base 10?</td>
+        </tr>
+        <tr>
+            <td>Usamos a REGRA DE DECOMPOSICAO!</td>
+        </tr>
+        <tr>
+            <td>Cada digito binario deve ser multiplicado por potencias de 2.</td>
+        </tr>
+        <tr>
+            <td>O ultimo digito e multiplicado por 2^0, o penultimo por 2^1,</td>
+        </tr>
+        <tr>
+            <td> o antepenultimo por 2^2 e, assim, sucessivamente.</td>
+        </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;" bordercolor="white">       
+
+        <tr align="center" style="background-color: rgba(240, 248, 255, 0.411);">
+            <td>( 1 1 0 0 1 ) ₂</td>
+        </tr>
+
+        <tr></tr>
+        <tr></tr>
+
+        <tr align="center">
+            <td>1 ∗ 2^4 + 1 ∗ 2^3 + 0 ∗ 2^2 + 0 ∗ 2^1 + 1 ∗ 2^0 = 16 + 8 + 0 + 0 + 1 = (25)𝟏𝟎</td>
+        </tr>
+    </table>
+</center>
+
+    <br>
+
+<center>
+    <table style="color: aliceblue;">       
+                <tr><br></tr>
+                <tr><br></tr>
+                <tr><br></tr>
+            <tr>
+                <td>Como podemos converter os numeros de base 10, para base 2?</td>
+            </tr>
+            <tr>
+                <td>Usamos a REGRA DA DIVISAO SUCESSIVA POR 2!</td>
+            </tr>
+            <tr>
+                <td>Aqui esta o passo a passo de como realizar uma divisao sucessiva:</td>
+            </tr>
+    </table>
+</center>
+
+    <br> 
+
+<center>
+    <table style="color: aliceblue;" bordercolor="white">       
+    
+            <tr align="center" style="background-color: rgba(240, 248, 255, 0.411);">
+                <td colspan="5">Passos:</td>
+            </tr>
+    
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+    
+            <tr align="center">
+                <td>1º) Fazer a divisao do numero decimal por 2 e guardar o resto.</td>
+                <td>2º) Dividir o quociente novamente por 2 e guardar o resto.</td>
+                <td>3º) Repetir o processo ate termos o quociente igual a 1.</td>
+                <td>4º) O numero na base 2 será a sequencia de restos obtidos</td>
+                <td>juntamente com o ultimo quociente, comecando pela direita.</td>
+            </tr>
+    </table>
+</center>
+
+<br>
+<br>
+
+<center>
+    <table style="color: aliceblue;">
+            <tr>
+                <td>Existe uma forma de calcular com binarios?</td>
+            </tr>
+            <tr>
+                <td>Claro que sim! E vamos aprender isso agora!</td>
+            </tr>
+            <tr>
+                <td>Em binario, nos calculamos da mesma forma que no sistema decimal:</td>
+            </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;" bordercolor="white" width="920px">
+         <tr style="background-color: rgba(240, 248, 255, 0.589);">
+            <td>Observe esta SOMA:</td>
+        </tr>
+        <tr>
+            <td>0 + 0 = 0</td>
+        </tr>
+        <tr>
+            <td>1 + 0 = 1</td>
+        </tr>
+        <tr>
+            <td>0 + 1 = 1</td>
+        </tr>
+        <tr>
+            <td>1 + 1 = 10 → fica o “0” e o “1” é transportado para a próxima casa</td>
+        </tr>
+        <tr>
+            <td>1 + 1 + 1 = 11 → fica o “1” e o outro “1” é transportado</td>
+        </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;" bordercolor="white" width="920px">
+         <tr style="background-color: rgba(240, 248, 255, 0.589);">
+            <td>Observe esta SUBTRACAO:</td>
+        </tr>
+        <tr>
+            <td>0 - 0 = 0</td>
+        </tr>
+        <tr>
+            <td>1 - 0 = 1</td>
+        </tr>
+        <tr>
+            <td>1 - 1 = 0</td>
+        </tr>
+        <tr>
+            <td>0 - 1 = 1 → Nesse caso, devemos “pedir emprestado”, entao fica 10 – 1 = 1 </td>
+        </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;" bordercolor="white" width="920px">
+         <tr style="background-color: rgba(240, 248, 255, 0.589);">
+            <td>Observe esta MULTIPLICACAO:</td>
+        </tr>
+        <tr>
+            <td>0 ∙ 0 = 0</td>
+        </tr>
+        <tr>
+            <td>1 ∙ 0 = 0</td>
+        </tr>
+        <tr>
+            <td>1 ∙ 1 = 1</td>
+        </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;" bordercolor="white" width="920px">
+         <tr style="background-color: rgba(240, 248, 255, 0.589);">
+            <td>Observe esta DIVISAO:</td>
+        </tr>
+        <tr>
+            <td>(10101)2 ∶ (111)2 = 11 → Observe que o quociente SEMPRE sera 0 ou 1.</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+</center>
+
+<br>
+
+<center>
+    <table style="color: aliceblue;">
+        <tr align="center">
+            <td>O que entendemos entao?</td>
+        </tr>
+        <tr>
+            <td>O sistema binario sem duvidas e extremamente dificil,</td>
+        </tr>
+        <tr>
+            <td>mas, com esforco o suficiente, voce pode tudo usando ele!</td>
+        </tr>
+    </table>
+</center>
+
+<br>
+<hr style="color: aliceblue;">
+
+<p style="color: aliceblue;">Continue lendo para saber mais sobre mais um sistema numerico...</p>
+<br>
+<br>
+<footer>
+        <a href="pagina1.html">Pagina Anterior</a>
+        <a href="index.html" class="center">Inicio</a>
+        <a href="pagina3.html">Proxima Pagina</a>
+</footer>
+    </span>
+</body>
+</html>

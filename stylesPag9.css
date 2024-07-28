@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgba(224, 224, 224, 0.342);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(221, 144, 27);
+    padding: 10px;
+}
+
+footer a:hover {
+    background-color: #be6c3581;
+}
+
+footer .center {
+    margin: 0 auto;
+}
